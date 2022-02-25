@@ -36,6 +36,7 @@ struct ContentView: View {
             }
             .ignoresSafeArea(.all, edges: .bottom)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
