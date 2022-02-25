@@ -5,7 +5,9 @@ struct ContentView: View {
     @StateObject var shared = APIService.shared
     
     init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.green]
     }
+    
     var body: some View {
         
         NavigationView {
